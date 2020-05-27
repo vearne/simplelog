@@ -3,6 +3,7 @@ package simplelog
 import (
 	"io"
 	"log"
+	"os"
 )
 
 const (
@@ -63,5 +64,6 @@ func Fatal(format string, v ...interface{}) {
 	if Level <= FatalLevel {
 		log.Printf("[fatal] "+format+"\n", v...)
 	}
+	os.Exit(1)
 }
 
