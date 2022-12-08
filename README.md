@@ -1,22 +1,22 @@
 # simplelog
 
-### Overview
+## Overview
 Simplelog is a simple encapsulation of the standard library "log"
 Because I need to be able to control the level of logging.
 
-### Install
+## Install
 ```
 go get github.com/vearne/simplelog
 ```
 
-### Use environment variables to set log level
+## Use environment variables to set log level
 optional value: debug | info | warn | error
 ```
 export SIMPLE_LOG_LEVEL=info
 ```
 
 
-### Usage
+## Usage
 
 ```
 package main
@@ -45,7 +45,7 @@ func main() {
 }
 ```
 
-### Output
+## Output
 ```
 2020/05/27 17:40:01 [debug] log, debug
 2020/05/27 17:40:01 [info] log, info
