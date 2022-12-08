@@ -1,4 +1,4 @@
-### simplelog
+# simplelog
 
 ### Overview
 Simplelog is a simple encapsulation of the standard library "log"
