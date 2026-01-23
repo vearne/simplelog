@@ -15,7 +15,7 @@ const (
 )
 
 var (
-	Level  = WarnLevel
+	Level  = InfoLevel
 	LogMap map[string]int
 )
 
